@@ -1,3 +1,31 @@
-h1 {
-  color: red;
+.container {
+  display: flex;
+}
+
+img {
+  height: 900px;
+}
+
+.form-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.caption-box {
+  border: 2px solid blue;
+}
+
+.form-box {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-box {
+  border: 2px solid red;
+}
+
+.caption-text {
+  width: 40rem;
 }
