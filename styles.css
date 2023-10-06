@@ -102,29 +102,16 @@ input {
   border-color: #e5e7eb;
 }
 
-.error:invalid {
-  border-color: red;
-}
-
 .error:valid {
   border-color: green;
 }
-
-input[type="text"],
-input[type="password"],
-input[type="number"],
-input[type="email"] {
-  outline: none;
-}
-
-input:focus {
+*/ input:focus {
   box-shadow: 10px 5px 5px grey;
-  border-color: blue;
 }
 
 .button-box {
   background-color: rgb(229, 233, 233);
-  height: 230px;
+  height: 250px;
 }
 
 .button-caption {
