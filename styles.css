@@ -17,7 +17,7 @@
   top: 15%;
   width: 94.5%;
   display: flex;
-  background-color: rgb(123, 163, 76);
+  background-color: rgb(238, 222, 222);
   padding: 20px;
   justify-content: center;
   opacity: 0.4;
@@ -30,9 +30,10 @@
 
 .img-header {
   font-size: 60px;
-  color: white;
+  color: black;
   font-family: "Luckiest Guy", cursive;
   letter-spacing: 0.2em;
+  font-weight: bold;
 }
 
 .acknowledegment {
@@ -46,7 +47,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: azure;
+  background-color: rgb(230, 247, 247);
 }
 
 .caption-box {
@@ -56,7 +57,7 @@
 .caption-text {
   width: 50rem;
   font-size: 50px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Luckiest Guy", cursive;
   margin-left: 100px;
 }
 
@@ -68,16 +69,8 @@
 
 .form-heading {
   font-size: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Luckiest Guy", cursive;
   margin-left: 100px;
-}
-
-input,
-button {
-  width: 150px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .first-last-name,
@@ -96,25 +89,26 @@ button {
 }
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-family: "Manrope", sans-serif;
 }
 
 input {
   background-color: #ffffff;
-  width: 100%;
+  width: 300px;
   padding: 7px;
   border-radius: 3px;
   font-size: 14px;
+  border-color: #e5e7eb;
 }
 
 .button-box {
   background-color: rgb(229, 233, 233);
-  height: 217px;
+  height: 230px;
 }
 
 .button-caption {
-  font-family: "Manrope", sans-serif;
+  font-family: "Luckiest Guy", cursive;
   margin-left: 100px;
 }
 
@@ -129,7 +123,7 @@ button {
 }
 
 .link-details {
-  font-family: "Manrope", sans-serif;
+  font-family: "Luckiest Guy", cursive;
   margin-left: 100px;
 }
 
