@@ -32,7 +32,6 @@
   font-size: 60px;
   color: white;
   font-family: "Luckiest Guy", cursive;
-  opacity: 1 !important;
   letter-spacing: 0.2em;
 }
 
@@ -51,25 +50,26 @@
 }
 
 .caption-box {
-  margin-left: 100px;
   margin-top: 60px;
 }
 
 .caption-text {
   width: 50rem;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Manrope", sans-serif;
+  margin-left: 100px;
 }
 
 .form-box {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  background-color: rgb(234, 241, 241);
 }
 
 .form-heading {
   font-size: 30px;
   font-family: "Manrope", sans-serif;
+  margin-left: 100px;
 }
 
 input,
@@ -86,6 +86,7 @@ button {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
+  margin-left: 100px;
 }
 
 .label-input-container {
@@ -108,11 +109,13 @@ input {
 }
 
 .button-box {
-  margin-left: 100px;
+  background-color: rgb(229, 233, 233);
+  height: 217px;
 }
 
 .button-caption {
   font-family: "Manrope", sans-serif;
+  margin-left: 100px;
 }
 
 button {
@@ -122,8 +125,16 @@ button {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  margin-left: 100px;
 }
 
 .link-details {
   font-family: "Manrope", sans-serif;
+  margin-left: 100px;
+}
+
+a {
+  color: #da595f;
+  font-weight: bold;
+  text-decoration: none;
 }
