@@ -7,16 +7,35 @@
   width: 40%;
 }
 
-img {
+.title-logo {
+  position: absolute;
+}
+
+.beach-image {
   width: 100%;
   height: 100vh;
 }
 
+.beach-logo {
+  width: 100px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
 .img-header {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 15%;
+  left: 20%;
   font-size: 60px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+.acknowledegment {
+  position: absolute;
+  top: 95%;
+  left: 35%;
   color: white;
 }
 
@@ -34,6 +53,7 @@ img {
 .caption-text {
   width: 40rem;
   font-size: 40px;
+  font-family: "Manrope", sans-serif;
 }
 
 .form-box {
@@ -44,6 +64,7 @@ img {
 
 .form-heading {
   font-size: 30px;
+  font-family: "Manrope", sans-serif;
 }
 
 input,
@@ -70,6 +91,7 @@ button {
 
 label {
   margin-bottom: 10px;
+  font-family: "Manrope", sans-serif;
 }
 
 input {
@@ -84,11 +106,19 @@ input {
   margin-left: 100px;
 }
 
+.button-caption {
+  font-family: "Manrope", sans-serif;
+}
+
 button {
-  background-color: #5995da;
+  background-color: #da595f;
   padding: 10px 40px;
   border-radius: 3px;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+}
+
+.link-details {
+  font-family: "Manrope", sans-serif;
 }
